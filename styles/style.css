@@ -4,10 +4,18 @@ html , body {
     padding: 0;
 
 }
+
 body{
     font-size: 14px;
     font-family: arial , sans-serif;
     color:#222;
+}
+a{
+    color:#3c4043;
+}
+li :hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .main-div{
@@ -15,22 +23,30 @@ body{
     flex-direction: column;
     height: 90%;
 }
+
 .logo-container , .form-container  {
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+.form-container{
+    padding-top: 35px;
+    
+}
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 20px;
 }
+
 .google-logo{
     position: relative;
     height: 100%;
     margin-top: auto;
 }
+
 button[type="button"]{
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -44,6 +60,7 @@ button[type="button"]{
     text-align: center;
     cursor: pointer;
 }
+
 .bar{
     width:580px;
     height: 28;
@@ -53,9 +70,7 @@ button[type="button"]{
     padding: 10px 8px 8px 10px;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .bar:hover{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
@@ -65,6 +80,7 @@ button[type="button"]{
     box-shadow: 1px 1px 8px 1px #dcdcdc;
     outline:none;
 }
+
 .sbar{
     
     height:30px;
@@ -72,9 +88,6 @@ button[type="button"]{
     width:510px;
     font-size:16px;
     outline: none;
-    position: 
-
-
 }
 .s-icon , .m-icon{
     width: 24px;
@@ -82,9 +95,59 @@ button[type="button"]{
     
   
 }
+
 button[type=button]:hover{
     border: 1px solid #c8c8c8;
 }
+
 button[type=button]:focus{
     border:1px solid #4885ed;
+}
+
+li{
+    float: right;
+    display: flex;
+
+}
+li , a {
+
+    padding: 4px;
+    text-decoration: none;
+    
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+    
+  }
+  .avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .avatar :hover{
+    border: 1px solid #c8c8c8;
+
+  }
+.apps{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+   
+}
+.top{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 15px;
+  
+}
+.nav-l{
+    font-size: 13px;
 }
