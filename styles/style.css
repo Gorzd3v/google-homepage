@@ -105,7 +105,7 @@ button[type="button"]:focus {
   border: 1px solid #4885ed;
 }
 
-li {
+li{
   float: right;
   display: flex;
 }
@@ -143,4 +143,28 @@ a {
 }
 .nav-l {
   font-size: 13px;
+}
+.footer{
+  opacity: 80%;
+  background-color:#f3f3f2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 20px;
+
+}
+
+.f-l , .f-r {
+  display: flex;
+}
+.f-r{
+  padding-inline-end: 40px;
+}
+
+.f-link :hover{
+  text-decoration: underline;
 }
